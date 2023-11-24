@@ -1,0 +1,18 @@
+function calculator(num1, num2, operator) {
+    let results;
+    switch (operator) {
+        case "+":
+            results = num1 + num2;
+            break;
+        case "-":
+            results = num1 - num2;
+            break;
+        default:
+            results = "Invalid operator";
+            break;       
+
+    }
+    return results;
+}
+console.log(calculator(2, 3, "+"));
+console.log(calculator(2, 3, "-"));
